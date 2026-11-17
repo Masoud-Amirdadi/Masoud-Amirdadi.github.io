@@ -1,2 +1,3 @@
-# Masoud-Amirdadi.github.io
-Masoud Amirdadi — Research portfolio
+# Masoud Amirdadi
+
+Research portfolio: https://masoud-amirdadi.github.io/
