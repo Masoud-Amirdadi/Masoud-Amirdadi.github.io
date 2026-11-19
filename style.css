@@ -197,5 +197,10 @@ main{min-height:65vh}h1,h2,h3{font-family:Arial,Helvetica,sans-serif;letter-spac
 
 /* Slightly larger portrait on About. */
 .home:not(.subpage) .profile-portrait{width:155px}
+.publications{margin:12px 0 48px}.publications-intro{color:var(--muted);line-height:1.7}
+.publication-list{list-style:none;padding:0;margin:26px 0}.publication-list>li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:18px;padding:25px 0;border-top:1px solid var(--line)}
+.publication-year{font-size:14px;font-weight:600;color:var(--accent);padding-top:3px}.publication-list h3{font-size:19px;line-height:1.5;margin:0 0 10px;font-weight:600}.publication-list h3 a{color:inherit}.publication-list h3 a:hover{color:var(--accent)}
+.publication-authors,.publication-journal{font-size:14px;line-height:1.7;margin:4px 0;text-align:left}.publication-journal{color:var(--muted);font-style:italic}.publication-links{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:13px;font-size:13px}.publication-note{font-size:12px;color:var(--muted);line-height:1.7}
+@media(max-width:600px){.publication-list>li{grid-template-columns:1fr;gap:8px;padding:22px 0}.publication-list h3{font-size:17px}.publication-year{padding:0}}
 @media(max-width:600px){.home:not(.subpage) .profile-portrait{width:105px}}
 @media(max-width:380px){.home:not(.subpage) .profile-portrait{width:80px}}
